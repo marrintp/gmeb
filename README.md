@@ -10,33 +10,33 @@ Linear Algebra and its Applications 625 (2021): 248-278.
 
 The matlab package includes the following directories and files:
 
-1. README.txt
-2. demo.m
+01. README.txt  
+02. demo.m
 
 \src\
-3.  GMEB_DataGen.m
-4.  GMEB_DualSubgrad.m
-5.  GMEB_OrderSelection.m
-6.  main.m
+03.  GMEB_DataGen.m  
+04.  GMEB_DualSubgrad.m  
+05.  GMEB_OrderSelection.m  
+06.  main.m  
 
 \src\helper\
-7.  aboxplot.m
-8.  diffusionKernel.m
-9.  GMEB_Primal.m
-10.  GrDist.m
-11.  GrExp.m
-12.  GrLog.m
-13.  KarcherMean.m
-14.  knee_pt.m
-15.  SimplexProj.m
+07.  aboxplot.m  
+08.  diffusionKernel.m  
+09.  GMEB_Primal.m  
+10.  GrDist.m  
+11.  GrExp.m  
+12.  GrLog.m  
+13.  KarcherMean.m  
+14.  knee_pt.m  
+15.  SimplexProj.m  
 16.  quartile.m
 
 \examples\
-17. GMEB_Exp001.m
-18. GMEB_Exp002.m
-19. GMEB_Exp003.m
-20. GMEB_IllustrativeExample.m
-21. GMEB_ScenarioSpecification.m
+17. GMEB_Exp001.m  
+18. GMEB_Exp002.m  
+19. GMEB_Exp003.m  
+20. GMEB_IllustrativeExample.m  
+21. GMEB_ScenarioSpecification.m  
 
 
 # Abstract #
