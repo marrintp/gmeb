@@ -1,14 +1,12 @@
-###############
+
 # Description #
-###############
 
 This matlab package contains files implementing the dual subgradient method for finding the center of the Grassmannian minimum enclosing ball for a finite collection of subspaces of differing dimensions, and the order-selection rules for the dimension of that center, as described in the paper:
 "On a minimum enclosing ball of a collection of linear subspaces" by TIM MARRINAN, P.-A. ABSIL, and NICOLAS GILLIS.
 Linear Algebra and its Applications 625 (2021): 248-278.
 
-############
+
 # Contents #
-############
 
 The matlab package includes the following directories and files:
 
@@ -40,15 +38,13 @@ The matlab package includes the following directories and files:
 20. GMEB_IllustrativeExample.m
 21. GMEB_ScenarioSpecification.m
 
-############
+
 # Abstract #
-############
 
 This paper concerns the minimax center of a collection of linear subspaces.  When the subspaces are $k$-dimensional subspaces of $\mathbb{R}^n$, this can be cast as a problem of minimizing the maximum distance on a Grassmann manifold, Gr$(k,n)$.  For subspaces of different dimension, the setting becomes a disjoint union of Grassmannians rather than a single manifold, and the problem is no longer well-defined. However, natural geometric maps exist between these manifolds with a well-defined notion of distance for the images of the subspaces under the mappings. Solving the initial problem in this context leads to a candidate minimax center on each of the constituent manifolds, but does not inherently provide intuition about which candidate is the best representation of the data.  Additionally, the solutions of different rank are generally not nested so a deflationary approach will not suffice, and the problem must be solved independently on each manifold.  We propose and solve an optimization problem parametrized by the rank of the minimax center.  The solution is computed using a subgradient algorithm on the dual. By scaling the objective and penalizing the information lost by the rank-$k$ minimax center, we jointly recover an optimal dimension, $k^*$, and a central subspace, $\*U^* \in$ Gr$(k^*,n)$ at the center of the minimum enclosing ball, that best represents the data.
 
-##############
+
 # File Usage #
-##############
 
 The file demo.m can be run with no modifications to add the folders to the path and run a small synthetic example. It computes the GMEB center of the data, selects the ideal order using the proposed order-selection rules, and visualizes an embedding of the subspace data and center into 2D or 3D.
 
@@ -66,9 +62,8 @@ To run your own experiments:
 02. Depending on your desired outcome, look to the files demo.m, GMEB_IllustrativeExample.m, GMEB_Exp001.m, GMEB_Exp002.m, or GMEB_Exp003.m for examples of how to use the data generation function, minimum enclosing ball dual subgradient method, and order-selection rules.
 
 
-###########
+
 # Contact #
-###########
 
 In case of questions, suggestions, problems etc. please send an email.
 
