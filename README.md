@@ -62,6 +62,13 @@ To run your own experiments:
 01. In the file GMEB_ScenarioSpecification.m, modify the parameters of the 'custom' scenario as desired.  
 02. Depending on your desired outcome, look to the files demo.m, GMEB_IllustrativeExample.m, GMEB_Exp001.m, GMEB_Exp002.m, or GMEB_Exp003.m for examples of how to use the data generation function, minimum enclosing ball dual subgradient method, and order-selection rules.
 
+# Citation: #
+
+If you find this code useful in your research, please cite: 
+
+      On a minimum enclosing ball of a collection of linear subspaces.
+      T. Marrinan, P.-A. Absil, and N. Gillis.
+      Linear Algebra and its Applications 625 (2021): 248-278.
 
 
 # Contact #
