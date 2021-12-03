@@ -11,7 +11,7 @@ Linear Algebra and its Applications 625 (2021): 248-278.
 The matlab package includes the following directories and files:
 
 \
-01. README.txt  
+01. README.md  
 02. demo.m
 
 \src\
